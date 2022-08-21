@@ -1,0 +1,20 @@
+{
+    "name": "gem5-dev",
+    "image": "01xz/gem5-dev:latest",
+    "settings": {},
+    "extensions": [
+        "ms-python.vscode-pylance"
+    ],
+    "mounts": [],
+    "runArgs": [
+        "-h",
+        "gem5-dev",
+        "--name",
+        "gem5-dev",
+        "-v",
+        "/etc/timezone:/etc/timezone:ro",
+        "-v",
+        "/etc/localtime:/etc/localtime:ro"
+    ],
+    "remoteUser": "vscode"
+}
